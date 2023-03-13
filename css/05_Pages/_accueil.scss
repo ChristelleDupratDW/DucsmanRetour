@@ -1,0 +1,38 @@
+.design_entete{
+    h1{
+        padding: 10px;
+    }
+    h2{
+        padding: 20px;
+    }
+}
+
+.design_presentation{
+    background-color: $color3;
+    padding: 100px;
+}
+
+.design__chambres{
+    background-color: $color2;
+    padding: 100px;
+    h4{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.design__hotel{
+    background-color: $color3;
+    padding: 100px;
+}
+
+.design__option{
+    background-color: $color3;
+    padding: 100px;
+}
+
+.design__service{
+    background-color: $color3;
+    padding: 100px;
+}
+

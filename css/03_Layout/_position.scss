@@ -1,0 +1,38 @@
+.position{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    z-index: 3;
+}
+
+.position__back{
+    position: relative;
+}
+
+.position__font{
+    position: absolute;
+    inset: 0;
+    // top: 20px;
+    // right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.position__chambre__font{
+    position: absolute;
+    bottom: 20px;
+}
+
+.position__chambre__reserver{
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+
+.vertical{
+    transform: rotate(270deg);
+}
+
